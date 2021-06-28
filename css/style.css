@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Open+Sans&family=Rajdhani:wght@600&family=Roboto:wght@500&display=swap');
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h5,p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-border{
+    width: 80%;
+    border: 2px solid black;
+    border-top: none;
+    position: relative;
+}
+.text-padding{
+    padding: 0 20%;
+}
+.text-padding-2{
+    padding: 0 5%;
+}
+.shop-btn{
+    padding: 10px 20px;
+    border-radius: 40px;
+    position: absolute;
+    bottom: -26px;
+    background-color: #8B665D !important;
+    border-color: #8B665D !important;
+}
+.shop-btn:active{
+    box-shadow: none !important;
+    background-color: #563f3a !important;
+}
+.shop-btn:hover{
+    background-color: #563f3a !important;
+}
+.shop-btn:focus{
+    background-color: #563f3a !important;
+    box-shadow: none !important;
+}
+.line{
+    padding: 2px 0;
+    background-color: black;
+    margin-right: 0;
+    width: 70%;
+}
+.read-btn{
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: #8B665D !important;
+    border-color: #8B665D !important;
+}
+.read-btn:active{
+    box-shadow: none !important;
+    background-color: #563f3a !important;
+}
+.read-btn:hover{
+    background-color: #563f3a !important;
+}
+.read-btn:focus{
+    background-color: #563f3a !important;
+    box-shadow: none !important;
+}
+.line-2{
+    padding: 2px 0;
+    background-color: black;
+    margin-right: 0;
+    width: 70%;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 576px){
+    .container-fluid{
+        width: 100% !important;
+    }
+    .text-border{
+        width: 90%;
+    }
+    .text-padding{
+        padding: 0 5%;
+    }
+    .text-padding-2{
+        padding: 0 2%;
+    }
+    .line{
+        width: 50%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 780px){
+    .container-fluid{
+        width: 100% !important;
+    }
+    .text-border{
+        width: 90%;
+    }
+    .text-padding{
+        padding: 0 5%;
+    }
+    .line{
+        width: 50%;
+    }
+    .line{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .container-fluid{
+        width: 100% !important;
+    }
+    .text-border{
+        width: 90%;
+    }
+    .text-padding{
+        padding: 0 5%;
+    }
+    .line{
+        width: 75%;
+    }
+
+}
